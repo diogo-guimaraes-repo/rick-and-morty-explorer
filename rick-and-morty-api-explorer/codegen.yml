@@ -1,5 +1,5 @@
 overwrite: true
-schema: "https://rickandmortyapi.com/graphql"
+schema: https://rickandmortyapi.com/graphql
 documents: "src/**/*.graphql"
 generates:
   src/generated/graphql.tsx:
