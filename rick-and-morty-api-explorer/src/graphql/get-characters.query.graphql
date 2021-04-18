@@ -1,0 +1,28 @@
+query GetCharacters {
+  characters {
+    __typename
+    results {
+      id
+      __typename
+      name
+      image
+      species
+      origin {
+        id
+        __typename
+        name
+      }
+      location {
+        id
+        __typename
+        name
+      }
+    }
+     info {
+      count
+      pages
+      next
+      prev
+    }
+  }
+}
